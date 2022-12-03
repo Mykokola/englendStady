@@ -1,0 +1,85 @@
+@import './styleNull.scss';
+.word-write-section--backgrund{
+    background: #212121;
+    padding-bottom: 70px;
+    .container{
+        .write-word-section{
+            padding-top: 71px;
+            display: flex;
+            padding-left: 460px;
+            h1{
+                margin-left: 50px;
+            }
+        }
+        .word-write-section_items{
+           
+            padding-left: 20px;
+            display: flex;
+            h1{
+                font-size: 30px;
+                line-height: 37px;
+            }
+            input{
+                width: 255px;
+                height: 40px;
+                background: #F9F6F1;
+                margin-left: 60px;
+            }
+            button{
+                width: 185px;
+                height: 40px;
+                background: #D7B399;
+                text-align: center;
+                margin-left: 35px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: white;
+            }
+          
+        }
+   
+    }
+    
+}
+
+ .main{
+    background:#515572;
+    .container{
+        .answer-section{
+            padding-top: 170px;
+            text-align: center;
+            h1{
+                color: black;
+            }
+            button{
+                margin-top: 30px;
+                width: 220px;
+                height: 55px;
+                background: #a699d7;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: white;
+            }
+            input{
+                margin-top: 20px;
+                width: 220px;
+                height: 35px;
+                background: #F9F6F1;
+                text-align: center;
+            }
+        }
+    }
+    padding-bottom: 150px;
+  }
+  .footer{
+    background: #212121;
+    padding-bottom: 55px;
+    .container{
+        h1{
+            text-align: center;
+            padding-top: 100px;
+        }
+    }
+  }
